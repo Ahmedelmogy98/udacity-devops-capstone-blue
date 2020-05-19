@@ -1,0 +1,14 @@
+Description: >
+  Ahmed Bahaa / Capstone Project
+
+Parameters:
+  RepositoryName:
+    Type: String
+    Description: The name of the ECR Repository
+    Default: "Undefined"
+
+Resources:
+  ElasticContainerRegistry:
+    Type: AWS::ECR::Repository
+    Properties:
+      RepositoryName: !Ref RepositoryName
