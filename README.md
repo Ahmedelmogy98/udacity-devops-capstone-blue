@@ -21,6 +21,3 @@ cd config
 kubectl apply -f eks-aws-auth-cm.yaml
 ```
 
-project steps
-
-![alt text](Project.png)
