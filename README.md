@@ -20,3 +20,7 @@ And  to join the worker nodes to the cluster running the following commands:
 cd config
 kubectl apply -f eks-aws-auth-cm.yaml
 ```
+
+project steps
+
+![alt text](http://url/to/Project.png)
