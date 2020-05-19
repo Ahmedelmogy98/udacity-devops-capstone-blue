@@ -23,4 +23,4 @@ kubectl apply -f eks-aws-auth-cm.yaml
 
 project steps
 
-![alt text](http://url/to/Project.png)
+![alt text](Project.png)
