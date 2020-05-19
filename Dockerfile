@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # STEP-02
-RUN rm /usr/share/nginx/html/index.html
+RUN rm /usr/share/nginx/html/public/index.html
 
 # STEP-03: COPY SOURCE CODE TO PRODUCTION
 COPY public/index.html /usr/share/nginx/html
