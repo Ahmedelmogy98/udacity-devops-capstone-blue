@@ -26,3 +26,8 @@ cd config
 kubectl apply -f aws-auth-cm.yaml
 ```
 
+
+Indicated is the rolling update within the `/Kubernetes/deployment.yml`-file through the
+deploy strategy type. The CI/CD pipeline (`Jenkinsfile`) performs an rolling
+update command to update the image to the latest image created during the build.
+
